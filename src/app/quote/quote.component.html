@@ -1,20 +1,20 @@
 <div class="panel-body">
-<div class="container">
- <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+    <div class="container">
+        <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
+    </div>
 </div>
-</div>
- <br>
- <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Playfair+Display" rel="stylesheet">
- <section class="output">
- <div class="container">
-        <div class="row">
-                 <div *ngFor="let quote of quotes; let i = index" class="col-md-6 no-pad">
+     <br>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Playfair+Display" rel="stylesheet">
+    <section class="output">
+        <div class="container">
+            <div class="row">
+                <div *ngFor="let quote of quotes; let i = index" class="col-md-6 no-pad">
                     <p>Submitted by:{{quote.name}}</p>
                     <P>Quote:{{quote.quote}}</P>
                     <p>Auother: {{quote.author}}</p>
                     <p>{{quote.date}}</p>
                     <button (click) = 'quoteDelete(true)' class="btn btn-danger btn-lg"> Delete Quote </button>
                 </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
