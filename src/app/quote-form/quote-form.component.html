@@ -1,20 +1,20 @@
 <section class="input">
-<div class="container">
-    <div class="row">
-        <div class="col-md-6">
-        <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
-          <div class="form-group">
-              <label for="name">USER NAME</label>
-              <input type="text"  class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name="ngModel" required>
-            </div>
-          <div class="form-group">
-              <label for="quote">QUOTE</label>
-              <input type="text"  class="form-control" id="quote" [(ngModel)]="newQuote.quote" name="quote" #quote="ngModel" required>
-          </div>
-          <div class="form-group">
-            <label for="name">AUTHOR</label>
-            <input type="text"  class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #author="ngModel" required>
-        </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+                 <div class="form-group">
+                    <label for="name">USER NAME</label>
+                    <input type="text"  class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name="ngModel" required>
+                 </div>
+                <div class="form-group">
+                    <label for="quote">QUOTE</label>
+                    <input type="text"  class="form-control" id="quote" [(ngModel)]="newQuote.quote" name="quote" #quote="ngModel" required>
+                 </div>
+                <div class="form-group">
+                    <label for="name">AUTHOR</label>
+                    <input type="text"  class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #author="ngModel" required>
+                </div>
         <button type="submit" class="btn btn-success btn-lg">submit</button>
         
       </form>
