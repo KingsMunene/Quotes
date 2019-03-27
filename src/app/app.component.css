@@ -1,6 +1,8 @@
 h1{
     font-family: 'Indie Flower', cursive;
 }
-.page{
-    background-image:url(https://www.pexels.com/photo/green-leafed-plant-near-photo-frame-1434612/)
+#form{
+        color: brown;
+        align-content: center;
+        background-image: url(image/background.jpg)
 }
