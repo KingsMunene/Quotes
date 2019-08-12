@@ -12,9 +12,9 @@ export class QuoteComponent implements OnInit {
   
   constructor(){}
   quotes:Quote[] = [
-    new Quote(1,"The grass is greener where you water it","Neil","Kings",new Date(2019,7,11)),
-    new Quote(2,"A writer is someone for whom writing is more difficult than it is for other people","Thomas Mann","Kings",new Date(2019,7,11)),
-    new Quote(3,"I've got the key to my castle in the air, but whether I can unlock the door remains to be seen","Louisa May Alcott","Kings",new Date(2019,7,11)),
+    new Quote(1,"The grass is greener where you water it","Neil","Kings",new Date(2019,7,10)),
+    new Quote(2,"A writer is someone for whom writing is more difficult than it is for other people","Thomas Mann","Kings",new Date(2019,7,10)),
+    new Quote(3,"I've got the key to my castle in the air, but whether I can unlock the door remains to be seen","Louisa May Alcott","Kings",new Date(2019,7,10)),
 
   ];
 
